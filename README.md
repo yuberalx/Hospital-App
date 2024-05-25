@@ -25,3 +25,5 @@
 ### Ejecutar las migraciones: Las migraciones de Laravel crean las tablas de la base de datos. Ejecuta el siguiente comando para aplicar las migraciones:`php artisan migrate`
 ### Ejecutar los Seeders que contienen 2 usarios de prueba iniciales, un usuario comun y otro adminitrador: `php artisan db:seed --class=UsersTableSeeder`
 ### Iniciar el servidor web: Ejecuta el siguiente comando para iniciar el servidor web de desarrollo: `php artisan serve`
+
+## Adicionalmente el proyecto tiene estilos basicos en tailwind por lo que de ser necesario y estos no se esten generando, ejecuta: `npm run dev`
