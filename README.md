@@ -20,3 +20,8 @@
 # Ejecucion local
 
 ### Configurar el archivo .env: Copia el archivo .env.example y renómbralo a .env. Luego, configura las variables de entorno como la conexión a la base de datos, la URL de la aplicación, etc.
+### Instalar las dependencias del proyecto: Abre una terminal o símbolo del sistema y navega hasta la carpeta del proyecto. Ejecuta el siguiente comando para instalar las dependencias: `composer install`
+### Instalar las dependencias del proyecto: Abre una terminal o símbolo del sistema y navega hasta la carpeta del proyecto. Ejecuta el siguiente comando para instalar las dependencias: `php artisan key:generate`
+### Ejecutar las migraciones: Las migraciones de Laravel crean las tablas de la base de datos. Ejecuta el siguiente comando para aplicar las migraciones:`php artisan migrate`
+### Ejecutar los Seeders que contienen 2 usarios de prueba iniciales, un usuario comun y otro adminitrador: `php artisan db:seed --class=UsersTableSeeder`
+### Iniciar el servidor web: Ejecuta el siguiente comando para iniciar el servidor web de desarrollo: `php artisan serve`
